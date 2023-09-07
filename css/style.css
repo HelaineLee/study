@@ -1,0 +1,12 @@
+body{
+    background-color:powderblue;
+}
+
+.external{
+    background-color: darkcyan;
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+}

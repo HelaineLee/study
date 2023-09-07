@@ -1,0 +1,102 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+.inline-block{
+    background-color: lightcoral;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+}
+.block{
+    background-color: lightblue;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: block;
+}
+.inline{
+    background-color: lightgreen;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: inline;
+}
+.flex{
+    background-color: lightpink;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: flex;
+}
+.inline-flex{
+    background-color: cornflowerblue;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: inline-flex;
+}
+.contents{
+    background-color: lightpink;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: contents;
+}
+.table{
+    background-color: lightseagreen;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: table;
+}
+.flexbox{
+    background-color: lightsalmon;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: flexbox;
+}
+.grid{
+    background-color: lightcyan;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: grid;
+}
+.list-item{
+    background-color: lightslategray;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: list-item;
+}
+.none{
+    background-color: lightseagreen;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: none;
+}
+.inherit{
+    background-color: lightsteelblue;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: inherit;
+}
+.initial{
+    background-color: turquoise;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: initial;
+}
+.unset{
+    background-color: white;
+    width: 30%;
+    height: 60px;
+    text-align: center;
+    display: unset;
+}
