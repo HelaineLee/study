@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <link rel="stylesheet" href="../css/colors.css">
+</head>
+<body>
+    <h2>input color</h2>
+    <input type="color">
+
+    <h2>rgb colors</h2>
+    <div id="rgb" class="square"></div>
+    <div class="transparent">
+        <div class="region" id="rgba"></div>
+    </div>
+    <div class="range">
+        <label for="rgb_r">red</label>
+        <input type="range" id="rgb_r" min="0" max="255" onchange="range('rgb')">
+        <br>
+        <label for="rgb_g">green</label>
+        <input type="range" id="rgb_g" min="0" max="255" onchange="range('rgb')">
+        <br>
+        <label for="rgb_b">blue</label>
+        <input type="range" id="rgb_b" min="0" max="255" onchange="range('rgb')">
+        <br>
+        <label for="rgb_a">alpha</label>
+        <input type="range" id="rgb_a" min="0" max="100" onchange="range('rgb')">
+    </div>
+
+    <h2>hex colors</h2>
+    <div id="hex" class="square"></div>
+    <div class="transparent">
+        <div class="region" id="hexa"></div>
+    </div>
+    <div class="range">
+        <label for="hex_r">red</label>
+        <input type="range" id="hex_r" min="0" max="255" onchange="range('hex')">
+        <br>
+        <label for="hex_g">green</label>
+        <input type="range" id="hex_g" min="0" max="255" onchange="range('hex')">
+        <br>
+        <label for="hex_b">blue</label>
+        <input type="range" id="hex_b" min="0" max="255" onchange="range('hex')">
+        <br>
+        <label for="hex_a">alpha</label>
+        <input type="range" id="hex_a" min="0" max="255" onchange="range('hex')">
+    </div>
+
+    <h2>hsl colors</h2>
+    <div id="hsl" class="square"></div>
+    <div class="transparent">
+        <div class="region" id="hsla"></div>
+    </div>
+    <div class="range">
+        <label for="hsl_h">hue</label>
+        <input type="range" id="hsl_r" min="0" max="360" onchange="range('hsl')">
+        <br>
+        <label for="hsl_s">saturation</label>
+        <input type="range" id="hsl_g" min="0" max="100" onchange="range('hsl')">
+        <br>
+        <label for="hsl_l">lightness</label>
+        <input type="range" id="hsl_b" min="0" max="100" onchange="range('hsl')">
+        <br>
+        <label for="hsl_a">alpha</label>
+        <input type="range" id="hsl_a" min="0" max="100" onchange="range('hsl')">
+    </div>
+    <br>
+    
+    <script src="../js/colors.js"></script>
+</body>
+</html>

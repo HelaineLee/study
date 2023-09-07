@@ -1,0 +1,25 @@
+abbr{
+    width: 10px;
+    height: 10px;
+    text-decoration: none;
+}
+
+.square{
+    margin-bottom: 20px;
+}
+
+.transparent{
+    width: 50%;
+    margin: auto;
+    background-image: url(../img/transparent.jpg);
+}
+
+.region{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.range{
+    margin: auto;
+}
