@@ -12,6 +12,7 @@ abbr{
     width: 50%;
     margin: auto;
     background-image: url(../img/transparent.jpg);
+    margin-bottom: 20px;
 }
 
 .region{
@@ -21,5 +22,7 @@ abbr{
 }
 
 .range{
+    width: 100%;
     margin: auto;
+    text-align: center;
 }

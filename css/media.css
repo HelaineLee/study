@@ -1,0 +1,38 @@
+body{
+    background-image: url(../img/wood.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px rgb(137, 137, 138);
+    margin-bottom: 30px;
+    margin-top: 20px;
+    background-color: aquamarine;
+}
+
+details > img{
+    width: 20%;
+}
+
+details{
+    margin-bottom: 30px;
+}
+
+picture > img{
+    width: 40%;
+}
+
+.media_img > div{
+    width: 55%;
+    float: right;
+}
+
+ul{
+    margin-top : 0;
+}

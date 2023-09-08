@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <link rel="stylesheet" href="../css/media.css">
+</head>
+<body>
+    <h1>Media</h1>
+    <details>
+        <summary>photo</summary>
+        <img src="../img/yellow.png" alt="yellow" usemap="#yellowmap">
+        <img src="../img/pink.png" alt="pink">
+        <img src="../img/green.png" alt="green">
+        <img src="../img/blue.png" alt="blue" usemap="#bluemap">
+        
+        <map name="yellowmap">
+            <area shape="rect" coords="10, 25, 125, 60" href="" alt="yellow" onclick="alert('yellow');return false;">
+        </map>
+        <map name="bluemap">
+            <area shape="circle" coords="65, 42, 30" href="" alt="blue" onclick="alert('blue');return false;">
+        </map>
+    </details>
+
+    <div class="media_img">
+        <picture>
+            <source media="(min-width: 800px)" srcset="../img/orange.png">
+            <source media="(min-width: 400px)" srcset="../img/white.png">
+            <img src="../img/aqua.png" alt="aqua">
+        </picture>
+        <div>
+            <ul>
+                <li>if screen is more than 800px => orange image</li>
+                <li>else if screen is more than 400px => white image</li>
+                <li>else => aqua image</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
